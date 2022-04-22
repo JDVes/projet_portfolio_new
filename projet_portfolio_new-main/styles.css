@@ -265,14 +265,15 @@ position: absolute;top: 90px;
 
 .section5{
 
-border: solid; 
+border: solid;
+width: 1900px;
+height: 200px;  
 }
 .compg{
 display: flex;
 padding: 30px ;
 margin: 20px;
-width: 1900px;
-height: 200px; 
+
 }
 
 .section6{
@@ -286,23 +287,30 @@ height: 200px;
     display: flex;
     padding: 40px;
     margin: 40px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+
+.projet1{
+    position: relative;
 }
 .imagep01{
-    width: 200px;
-    margin: 100px;
-    height: 100px;
+    width: 500px;
+   
+    height: 400px;
 }
 
 .imagep02{
-    width: 200px;
-    margin: 100px;
-    height: 100px;
+    width: 500px;
+    height: 400px;
     
 }
 .imagep03{
-    width: 200px;
-    margin: 100px;
-    height: 100px;
+    width: 500px;
+   
+    height:400px;
 }
 .section7{
       border: solid;
@@ -330,6 +338,11 @@ height: 200px;
 .monadd{
     width: 30px;
     height: 30px;
+}
+
+.locali{
+    width: 25px;
+    height: 25px;
 }
 .address{
     margin-left: 1500px;
