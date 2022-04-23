@@ -324,15 +324,29 @@ margin: 20px;
 }
 .joindre{
     margin-right: 100px;
+
+   
 }
+
+.call{
+    position: absolute;left: 15px;top: 5px;
+    border: solid;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
 .email{
     width: 25px;
     height: 25px;
+    position: absolute;top: 300px;left: 80px;
 }
 
 .tel{
     width: 25px;
     height: 25px;  
+    position: absolute;top: 200px;left: 85px;
 }
 
 .monadd{
@@ -341,13 +355,39 @@ margin: 20px;
 }
 
 .locali{
-    width: 25px;
-    height: 25px;
+    width: 170px;
+    height: 100px;
+    position: absolute;top: 220px;right: 150px;
+}
+
+
+.lieux{
+    position: absolute;right: 190px;top: 160px;
 }
 .address{
     margin-left: 1500px;
+    text-align: center;
+  
+  
     
 }
+
+.contact{
+    position: relative;
+}
+
+.add{
+    border: solid;
+    
+    border-radius: 100%;
+    position: absolute;right: 80px;
+    width: 70px;
+    height: 70px;
+ 
+   
+}
+
+
 .formulaire{
     margin-left: 00px;
     position: absolute;right: 900px;  
@@ -356,7 +396,20 @@ margin: 20px;
     text-align: center;
     border: solid;
     background-color: rgb(104, 48, 8);
-  
+    position: absolute;bottom: 0px;
+    width: 1895px;
+}
+
+.mail0{
+   position: absolute;left: 150px;top: 290px
+}
+
+.contact{
+    position: relative;
+}
+
+.celtxt{
+ position: relative;top: 100px;left: 120px;
 }
 .sign{
     color: aliceblue;
