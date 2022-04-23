@@ -54,15 +54,23 @@ background-color: #DFDED1;
  
 
 }
+
+.cont{
+   
+}
 h3{
     text-align: center;
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;height: 50%;
      border-radius: 100px;
     border: solid;  
     /* border: solid; */
     /* transform: scale();  */
-    width: px;
-    height: px;
+    width: 150px;
+    height: 30px;
+    margin-left: 950px;
+  
+  
 }
 .photos01{
     width: 500px;
@@ -95,9 +103,10 @@ h3{
 } 
 .btn{
     text-align: center;
-    border-radius: 35%;
-    width: 115px;
-    height: 50px;
+    border-radius: 30%;
+    width: 130px;
+    height: 40px;
+    
 
 }
  
@@ -391,6 +400,13 @@ margin: 20px;
 .formulaire{
     margin-left: 00px;
     position: absolute;right: 900px;  
+}
+
+
+
+#btn{
+    width: 100px;
+    height: 25px;
 }
 .footer{
     text-align: center;
