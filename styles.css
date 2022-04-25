@@ -9,12 +9,13 @@
     border: solid;
 
 position: relative;
+width: 1900px;
+height: 250px;
 
    
 }
 .menus{
-    background-color: rgb(8, 66, 83);
-
+background-color: #DFDED1;
 }
    
 .logo1{
@@ -27,75 +28,96 @@ position: relative;
 .section2{
      border: solid;
      position: relative;
+     width: 1900px;
+     height: 350px;
+
      
 }
 .cv{
-    width: 50px;
-    height: 50px;
-    border: solid;
+    width: 60px;
+    height: 20px;
+    position: absolute;bottom: 40px;right: -15px;
+    text-align: center;
+    background-color: blue;
+    
 
 }
 .hub{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+    position: absolute;bottom: 40px;right: 100px;
  
-}
 .link{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    position: absolute;bottom: 42px; right:175px;
+    
+ 
 
+}
+
+.cont{
+   
 }
 h3{
     text-align: center;
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;height: 50%;
      border-radius: 100px;
     border: solid;  
     /* border: solid; */
     /* transform: scale();  */
+    width: 150px;
+    height: 30px;
+    margin-left: 950px;
+  border-color: goldenrod;
+  
+  
 }
 .photos01{
-    width: 550px;
-    margin: 20px;
-     height: 50px;
-    position: absolute;top: 35px; 
+    width: 500px;
+    margin: px;
+    margin-right: 200px;
+    margin-left: 350px;
+     height: 250px;
+    position: absolute;top: px; right: px; ;
 }
 .texte01{
-    margin-left: 1150px;
-    position: absolute ;bottom: 16px;
+    margin-left:1000px;
+    position: absolute ;bottom: px;top: px;
+    font-size: x-large;
+    font-size: xx-large;
+    font-family: sans-serif;
 }
 .bouton{
-    margin-left: 1500px;
+    margin-left: 1345px;
+    margin-bottom: 80px;
   position: absolute ;bottom: -80px;
+
   
 
 }
  .bouton1{
-     border: solid;
-    position: absolute;right: 300px;top: -100px; 
-    /* border-radius: 50%; */
-    background-color: goldenrod;
-    width: 20px;
-    height: 20px;
+  
+    position: absolute;right: 250px;bottom: -40px;top: px; 
+    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+   
 } 
- .cv{
-    /* border-radius: 50%;  */
-    background-color: goldenrod;
-    width: 20px;
-    height: 20px;
-    /* text-align: center;
-    position: absolute;right: 300px;top: -100px;  */
-}   
-
-.bouton2 {
- position: absolute;right: 200px;top: -100px; 
-/* border: solid; */
-
+.btn{
+    text-align: center;
+    border-radius: 30%;
+    width: 130px;
+    height: 40px;
+    background-color: #23DB80; 
+    
+    
 
 }
-.bouton3{
-    position: absolute;right: 100px;top: -100px;
-    /* border: solid; */
-}
+ 
+
 .photos1{
 width: 50px;height: 50px;
 }
@@ -103,16 +125,24 @@ width: 50px;height: 50px;
 .section3{
     border: solid;
     position: relative;
+    width: 1900px;
+    height: 400px;
+
 }
 .photos02{
-    width: 400px;
-    margin-left: 1000px;
+    width: 450px;
+    margin-left: 1200px;
+    margin-top: 10px;
     
 }
 
 .texte02{
-margin-left: 50px;
-position: absolute;top: 90px;
+margin-left: 350px;
+position: absolute;top: 60px;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: medium;
+font-size: 20px;
 
 
 }
@@ -120,11 +150,13 @@ position: absolute;top: 90px;
 .section4{
     border: solid;
     position: relative;
+    width: 1900px;
+    height: 700px;
 }
 .Acad{
     margin: 20px; 
     margin-top: -400px; 
-    position: relative;left: 100px;top: 25px;
+    position: relative;left: 200px;top: 25px;
 }
 .titre1{
 
@@ -194,7 +226,7 @@ position: absolute;top: 90px;
 
 .exp{
     margin-top: 50px;
-    position: relative;left: 700px;top: 25px;
+    position: relative;left: 500px;top: 25px;
     
 }
 
@@ -253,43 +285,157 @@ position: absolute;top: 90px;
 
 .section5{
 
-/* border: solid; */
+border: solid;
+width: 1900px;
+height: 230px;  
 }
 .compg{
 display: flex;
-padding: 20px ;
+align-items: center;
+justify-content: space-between;
+height: 100%;
+width: 15%;
+padding: px;
+
+}
+
+.diag1{
+    width: 45px;
+    height: 150px;
+    border: solid;
+    display: flex;
+    margin-left: px;
+    background-color: #ECA86B;
+    border-color: #23DB80;
+
+    
+   
+}
+
+.diagtxt1{
+margin-left: 60px;
+margin-bottom: 135px;
+
+}
+
+.diag2{
+    width: 45px;
+    height: 130px;
+    border: solid;
+    border-color: #23DB80;
+    background-color:#5C4D17 ;
+}
+
+.diagtxt2{
+
+    margin-left: 300px;
+    margin-bottom: 110px;
+}
+
+.diag3{
+    width: 45px;
+    height: 125px;
+    border: solid; 
+    background-color:#8F6410 ;
+    border-color: #23DB80;
+
+}
+
+
+.diagtxt3{
+
+    margin-left: 300px;
+    margin-bottom: 105px;
+    border-color: #23DB80;
+}
+
+
+.diag4{
+    width: 45px;
+    height: 120px;
+    border: solid; 
+    background-color: #6D7EE0;
+    border-color: #23DB80;
+
+} 
+
+.diagtxt4{
+    margin-left: 400px;
+    margin-bottom: 88px;
+}
+
+.diag5{
+    width: 45px;
+    height: 100px;
+    border: solid;   
+    background-color:#ECA86B ;
+    border-color: #23DB80;
+
+}
+
+.diagtxt5{
+    margin-left:  200px;
+    margin-bottom: 88px; 
+    border-color: #23DB80;
+
+}
+
+.diag6{
+    width: 45px;
+    height: 100px;
+    border: solid;   
+    background-color:#ECC73B ;
+    border-color: #23DB80;
+
+}
+
+.diagtxt6{
+
+    margin-left: 200px;
+    margin-bottom: 80px; 
 }
 
 .section6{
     border: solid;
     position: relative;
+    width: 1900px;
+    height: px
      
 }
 .projet{
     display: flex;
     padding: 40px;
     margin: 40px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+}
+
+.projet1{
+    position: relative;
 }
 .imagep01{
-    width: 200px;
-    margin: 100px;
-    height: 100px;
+    width: 500px;
+   
+    height: 400px;
 }
 
 .imagep02{
-    width: 200px;
-    margin: 100px;
-    height: 100px;
+    width: 500px;
+    height: 400px;
     
 }
 .imagep03{
-    width: 200px;
-    margin: 100px;
-    height: 100px;
+    width: 500px;
+   
+    height:400px;
 }
 .section7{
       border: solid;
       position: relative;
+      width: 1900px;
+      height: 500px;
 }
 .foot{
     display: flex; 
@@ -297,20 +443,99 @@ padding: 20px ;
 }
 .joindre{
     margin-right: 100px;
+
+   
+}
+
+.call{
+    position: absolute;left: 15px;top: 5px;
+    border: solid;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+.email{
+    width: 25px;
+    height: 25px;
+    position: absolute;top: 300px;left: 80px;
+}
+
+.tel{
+    width: 25px;
+    height: 25px;  
+    position: absolute;top: 200px;left: 85px;
+}
+
+.monadd{
+    width: 30px;
+    height: 30px;
+}
+
+.locali{
+    width: 170px;
+    height: 100px;
+    position: absolute;top: 220px;right: 150px;
+}
+
+
+.lieux{
+    position: absolute;right: 190px;top: 160px;
 }
 .address{
     margin-left: 1500px;
+    text-align: center;
+  
+  
     
 }
+
+.contact{
+    position: relative;
+}
+
+.add{
+    border: solid;
+    
+    border-radius: 100%;
+    position: absolute;right: 80px;
+    width: 70px;
+    height: 70px;
+ 
+   
+}
+
+
 .formulaire{
     margin-left: 00px;
     position: absolute;right: 900px;  
+}
+
+
+
+#btn{
+    width: 100px;
+    height: 25px;
 }
 .footer{
     text-align: center;
     border: solid;
     background-color: rgb(104, 48, 8);
-  
+    position: absolute;bottom: 0px;
+    width: 1895px;
+}
+
+.mail0{
+   position: absolute;left: 150px;top: 290px
+}
+
+.contact{
+    position: relative;
+}
+
+.celtxt{
+ position: relative;top: 100px;left: 120px;
 }
 .sign{
     color: aliceblue;
@@ -318,14 +543,12 @@ padding: 20px ;
 
 nav ul{
     padding: auto;
-    margin: 10px;
+    margin: 20px;
     list-style-type: none;
     float: right;
     top: 80px;
     right: 40px; 
-    position: absolute;top: 77px;left: 800px;
-   
-    
+    position: absolute;top: 77px;left: 1000px;
     
 }
 
@@ -336,15 +559,15 @@ nav li{
     line-height: 30px;
     padding: 0px;
     margin: 0px;
-    border: solid 2px;
-   background-color: aliceblue;
+    border: solid 1px;
+    background-color: aliceblue;
    
    
 
 }
 nav li a{display: block;
 text-decoration: none;
-color: black;
+color: #1E2021;
 }
 nav li :hover{
   background-color: rgb(58, 223, 206);
