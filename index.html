@@ -10,16 +10,16 @@
      <body >
          <!-- Menus Horizontal -->
 
-         <div class="section1">
+         <div class="section1" >
             <div class="menus" >
                 <nav>
                     <ul>
-                        <li><a href="#">ACCUEIL</a></li>
-                        <li><a href="#">A PROPOS</a></li>
-                        <li><a href="#"> PARCOURS</a></li>
-                        <li><a href="#">COMPETENCES</a></li>
-                        <li><a href="#">MES PROJETS</a></li>
-                        <li><a href="#">CONTACTS</a></li>
+                        <li><a href="#ACCUEIL">ACCUEIL</a></li>
+                        <li><a href="#A PROPOS">A PROPOS</a></li>
+                        <li><a href="#PARCOURS"> PARCOURS</a></li>
+                        <li><a href="#COMPETENCES">COMPETENCES</a></li>
+                        <li><a href="#MES PROJETS">MES PROJETS</a></li>
+                        <li><a href="#CONTACTS">CONTACTS</a></li>
                     </ul>
                 </nav> 
                 <div class="logo" >
@@ -40,7 +40,7 @@
 
 
 
-         <div class="section2" >
+         <div class="section2"  id="ACCUEIL" >
              <div class="accueil" >
                  <h3>ACCUEIL</h3>
              </div>
@@ -55,12 +55,19 @@
              </div>
             
              <div class="bouton" >
-                 <div class="bouton1" >
-                     <input type="text" class="cv" > Download CV
-                     <a href=""></a>
+                 <div class="bouton01" >
+
+                    <div class="bouton1" >
+                          <div class="dowtext" >
+                            <input type="button" value="DOWNLOAD CV" class="btn">
+                          </div>
+
+                    </div>
+                    
+                    
                  </div>
                  <div class="bouton2" >
-                     <img src="github.png" alt="" class="hub" >
+                     <img src="github.png" alt="" class="hub"  >
                      <a href=""></a>
                  </div>
                  <div class="bouton3" >
@@ -70,11 +77,11 @@
              </div>
          </div>
 
-         <div class="section3"> 
+         <div class="section3"  id="A PROPOS"  > 
 
-            <DIV class="apropos">
+            <div class="apropos">
                 <h3>A PROPOS</h3>
-            </DIV>
+            </div>
             <div class="photos2">
                 <img src="Developpeur-Mobile.jpg" class="photos02" >
             </div>
@@ -93,7 +100,7 @@
             </div>
          </div>
        
-         <div class="section4">
+         <div class="section4" id="PARCOURS"  >
              <div class="parcours">
                  <h3>PARCOURS</h3>
              </div>
@@ -135,7 +142,7 @@
             </div>
          </div>
 
-         <div class="section5">
+         <div class="section5" id="COMPETENCES" >
              <div class="comp">
                 <h3> COMPETENCES</h3>
              </div>
@@ -171,7 +178,7 @@
             
          </div>
 
-         <div class="section6">
+         <div class="section6"  id="MES PROJETS" >
             <h3>MES PROJETS</h3>
              <div class="projet">
                 
@@ -197,7 +204,7 @@
    
                <div class="projet3">
                    <div class="imagep3">
-                       <img src="data-illustration-computing-cover.jpg.webp" alt=""  imagep03>
+                       <img src="data-illustration-computing-cover.jpg.webp" alt="" class="imagep03" >
                    </div>
                    <div class="text3">
                       <p>orem ipsum parabelum inprecipio semper</p> 
@@ -207,35 +214,46 @@
             </div>
 
              
-       <div class="section7">
-           <div class="contacts"><h3>CONTACTS</h3></div>
-<div class="foot">
+       <div class="section7" id="CONTACTS" >
+           <div class="contacts"><h3 class="cont" >CONTACTS</h3></div>
+       <div class="foot">
 
     <div class="joindre">
-        <div class="contact">Me Joindre</div><br>
-        <div class="num">Numeros
+        <div class="contact"> <p class="call" >Me Joindre</p> </div><br>
+        <div class="num"> <p class="celtxt" > 00228 90786400 </p>
             <img src="contact.png" alt="" class="tel" >
         </div>
-        <div class="mail">Email
+        <div class="mail"> <p class="mail0" > jeandaviddouti@gmail.com </p> 
             <img src="email.png" alt="" class="email" >
         </div>
     </div><br>
     <div class="formulaire">Formulaire <br><br>
-        <form action="">
+        <fieldset class="drot">
+         <form action="" method="get" >
+             <label for="Nom et Prenoms"></label>
+             <input type="text" id="Nom" placeholder="saisir votre nom et prenoms" ><br><br>
+             <label for="Email"  ></label>
+             <input type="email" id="email" placeholder="saisir votre email" ><br><br>
+             <label for="contacts"></label>
+             <input type="tel" id="contacts" placeholder="saisir votre numeros " ><br><br>
+             <label for="message"></label>
+             <textarea name="message" id="message" cols="30" rows="10" placeholder="saisir votre message" ></textarea><br><br>
+             <input type="submit" value="envoyer" id="btn" >
 
-        </form>
+          </form>
+        </fieldset>
     </div>
-    <div class="address">  Address 
-        <div class="monadd"> LOME-TOGO</div>
-        <div class="localisation"><img src="localisation.png" alt="" locali ></div>
-    </div>
-       
+    <div class="address"> <p class="add" > Address </p> 
+        <div class="monadd"> <p class="lieux" > LOME-TOGO <br>West Africa </p> </div>
+        <div class="localisation"><img src="localisation.png" alt="" class="locali" ></div>
+    </div> 
+      
 </div>
 <div class="footer"> <p class="sign" >Copyright@ JD</p> </div>
 </div>
 
 
-         <!-- </div> -->
+        
     
      </body>
 </html>
