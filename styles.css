@@ -1,306 +1,329 @@
-
-
 /* Menus Horizontal */
 
 
 /* Section menus */
 
- .section1{
+body {
+    display: grid;
+    justify-content: center;
+    max-width: 14OOpx;
+    width: fit-content;
+}
+
+.section1 {
     border: solid;
-
-position: relative;
-width: 1900px;
-height: 250px;
-
-   
+    position: relative;
+    width: 1900px;
+    height: 250px;
 }
-.menus{
-background-color: #DFDED1;
+
+.menus {
+    background-color: #DFDED1;
 }
-   
-.logo1{
+
+.logo1 {
     border-radius: 50%;
     width: 150px;
     height: 150px;
     margin: 30px;
     top: 0px;
 }
-.section2{
-     border: solid;
-     position: relative;
-     width: 1900px;
-     height: 350px;
 
-     
+.section2 {
+    border: solid;
+    position: relative;
+    width: 1900px;
+    height: 350px;
 }
-.cv{
+
+.cv {
     width: 60px;
     height: 20px;
-    position: absolute;bottom: 40px;right: -15px;
+    position: absolute;
+    bottom: 40px;
+    right: -15px;
     text-align: center;
     background-color: blue;
-    
-
 }
-.hub{
+
+.hub {
     width: 40px;
     height: 40px;
-    position: absolute;bottom: 40px;right: 100px;
- 
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
 }
-.link{
+
+.link {
     width: 30px;
     height: 30px;
-    position: absolute;bottom: 42px; right:175px;
-    
- 
-
+    position: absolute;
+    bottom: 42px;
+    right: 175px;
 }
 
-.cont{
-   
-}
-h3{
+.cont {}
+
+h3 {
     text-align: center;
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;height: 50%;
-     border-radius: 100px;
-    border: solid;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50%;
+    border-radius: 100px;
+    border: solid;
     /* border: solid; */
     /* transform: scale();  */
     width: 150px;
     height: 30px;
     margin-left: 950px;
-  border-color: goldenrod;
-  
-  
+    border-color: goldenrod;
 }
-.photos01{
+
+.photos01 {
     width: 500px;
     margin: px;
     margin-right: 200px;
     margin-left: 350px;
-     height: 250px;
-    position: absolute;top: px; right: px; ;
+    height: 250px;
+    position: absolute;
+    top: px;
+    right: px;
+    ;
 }
-.texte01{
-    margin-left:1000px;
-    position: absolute ;bottom: px;top: px;
+
+.texte01 {
+    margin-left: 1000px;
+    position: absolute;
+    bottom: px;
+    top: px;
     font-size: x-large;
     font-size: xx-large;
     font-family: sans-serif;
 }
-.bouton{
+
+.bouton {
     margin-left: 1345px;
     margin-bottom: 80px;
-  position: absolute ;bottom: -80px;
-
-  
-
+    position: absolute;
+    bottom: -80px;
 }
- .bouton1{
-  
-    position: absolute;right: 250px;bottom: -40px;top: px; 
+
+.bouton1 {
+    position: absolute;
+    right: 250px;
+    bottom: -40px;
+    top: px;
     margin-bottom: 80px;
     margin-top: 50px;
     margin-left: 100px;
     text-align: center;
-   
-} 
-.btn{
+}
+
+.btn {
     text-align: center;
     border-radius: 30%;
     width: 130px;
     height: 40px;
-    background-color: #23DB80; 
-    
-    
-
-}
- 
-
-.photos1{
-width: 50px;height: 50px;
+    background-color: #23DB80;
 }
 
-.section3{
+.photos1 {
+    width: 50px;
+    height: 50px;
+}
+
+.section3 {
     border: solid;
     position: relative;
     width: 1900px;
     height: 400px;
-
 }
-.photos02{
+
+.photos02 {
     width: 450px;
     margin-left: 1200px;
     margin-top: 10px;
-    
 }
 
-.texte02{
-margin-left: 350px;
-position: absolute;top: 60px;
-
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: medium;
-font-size: 20px;
-
-
+.texte02 {
+    margin-left: 350px;
+    position: absolute;
+    top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-size: 20px;
 }
 
-.section4{
+.section4 {
     border: solid;
     position: relative;
     width: 1900px;
     height: 700px;
 }
-.Acad{
-    margin: 20px; 
-    margin-top: -400px; 
-    position: relative;left: 200px;top: 25px;
-}
-.titre1{
 
-   border-radius: 40%;
-   position: absolute;left: 850px;
-   width: 150px;
-   border: solid;
-   height: px;
-   padding: 20px;
-   left: 1600px;
-   top: 110px;
-   text-align: center;
+.Acad {
+    margin: 20px;
+    margin-top: -400px;
+    position: relative;
+    left: 200px;
+    top: 25px;
 }
-.titre2{
+
+.titre1 {
+    border-radius: 40%;
+    position: absolute;
+    left: 850px;
+    width: 150px;
+    border: solid;
+    height: px;
+    padding: 20px;
+    left: 1600px;
+    top: 110px;
+    text-align: center;
+}
+
+.titre2 {
     margin: 50px;
     border-radius: 40%;
     width: 150px;
     border: solid;
     height: px;
-    padding: 30px;   
+    padding: 30px;
 }
-.image1{
+
+.image1 {
     border: solid;
     border-radius: 50%;
     width: 50px;
     height: 50px;
 }
-.desc1{
+
+.desc1 {
     border: solid;
     right: 20px;
     width: 200px;
-    height: 80px; 
+    height: 80px;
     margin-left: 100px;
-    position: relative;top: -80px; 
+    position: relative;
+    top: -80px;
 }
-.image2{
+
+.image2 {
     border: solid;
     border-radius: 50%;
     width: 50px;
-    height: 50px;    
+    height: 50px;
 }
 
-.desc2{
+.desc2 {
     border: solid;
     right: 20px;
     width: 200px;
-    height: 80px; 
+    height: 80px;
     margin-left: 100px;
-    position: relative;top: -80px; 
+    position: relative;
+    top: -80px;
 }
-    
-.image3{
+
+.image3 {
     border: solid;
     border-radius: 50%;
     width: 50px;
-    height: 50px;    
+    height: 50px;
 }
 
-.desc3{
+.desc3 {
     border: solid;
     right: 20px;
     width: 200px;
-    height: 80px; 
+    height: 80px;
     margin-left: 100px;
-    position: relative;top: -80px; 
+    position: relative;
+    top: -80px;
 }
 
-.exp{
+.exp {
     margin-top: 50px;
-    position: relative;left: 500px;top: 25px;
-    
+    position: relative;
+    left: 500px;
+    top: 25px;
 }
 
-  
-
-.image01{
+.image01 {
     border: solid;
     border-radius: 50%;
     width: 50px;
     height: 50px;
     margin-left: 750px;
-    position: relative;top: 10px; 
+    position: relative;
+    top: 10px;
 }
-.desc01{
+
+.desc01 {
     border: solid;
     right: 20px;
     width: 200px;
-    height: 80px; 
+    height: 80px;
     margin-left: 850px;
-    position: relative;top: -65px; 
+    position: relative;
+    top: -65px;
 }
-.image02{
+
+.image02 {
     border: solid;
     border-radius: 50%;
     width: 50px;
     height: 50px;
     margin-left: 750px;
-    position: relative;top: 150px;
+    position: relative;
+    top: 150px;
 }
 
-.desc02{
+.desc02 {
     border: solid;
     right: 20px;
     width: 200px;
-    height: 80px; 
+    height: 80px;
     margin-left: 850px;
-    position: relative;top: -70px; 
+    position: relative;
+    top: -70px;
 }
-.image03{
+
+.image03 {
     border: solid;
     border-radius: 50%;
     width: 50px;
     height: 50px;
     margin-left: 750px;
-    position: relative;top: -130px; 
+    position: relative;
+    top: -130px;
 }
-.desc03{
+
+.desc03 {
     border: solid;
     right: 20px;
     width: 200px;
-    height: 80px; 
+    height: 80px;
     margin-left: 850px;
-    position: relative;top: -60px;  
+    position: relative;
+    top: -60px;
 }
 
-
-.section5{
-
-border: solid;
-width: 1900px;
-height: 230px;  
-}
-.compg{
-display: flex;
-align-items: center;
-justify-content: space-between;
-height: 100%;
-width: 15%;
-padding: px;
-
+.section5 {
+    border: solid;
+    width: 1900px;
+    height: 230px;
 }
 
-.diag1{
+.compg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 15%;
+    padding: px;
+}
+
+.diag1 {
     width: 45px;
     height: 150px;
     border: solid;
@@ -308,148 +331,135 @@ padding: px;
     margin-left: px;
     background-color: #ECA86B;
     border-color: #23DB80;
-
-    
-   
 }
 
-.diagtxt1{
-margin-left: 60px;
-margin-bottom: 135px;
-
+.diagtxt1 {
+    margin-left: 60px;
+    margin-bottom: 135px;
 }
 
-.diag2{
+.diag2 {
     width: 45px;
     height: 130px;
     border: solid;
     border-color: #23DB80;
-    background-color:#5C4D17 ;
+    background-color: #5C4D17;
 }
 
-.diagtxt2{
-
+.diagtxt2 {
     margin-left: 300px;
     margin-bottom: 110px;
 }
 
-.diag3{
+.diag3 {
     width: 45px;
     height: 125px;
-    border: solid; 
-    background-color:#8F6410 ;
+    border: solid;
+    background-color: #8F6410;
     border-color: #23DB80;
-
 }
 
-
-.diagtxt3{
-
+.diagtxt3 {
     margin-left: 300px;
     margin-bottom: 105px;
     border-color: #23DB80;
 }
 
-
-.diag4{
+.diag4 {
     width: 45px;
     height: 120px;
-    border: solid; 
+    border: solid;
     background-color: #6D7EE0;
     border-color: #23DB80;
+}
 
-} 
-
-.diagtxt4{
+.diagtxt4 {
     margin-left: 400px;
     margin-bottom: 88px;
 }
 
-.diag5{
+.diag5 {
     width: 45px;
     height: 100px;
-    border: solid;   
-    background-color:#ECA86B ;
+    border: solid;
+    background-color: #ECA86B;
     border-color: #23DB80;
-
 }
 
-.diagtxt5{
-    margin-left:  200px;
-    margin-bottom: 88px; 
-    border-color: #23DB80;
-
-}
-
-.diag6{
-    width: 45px;
-    height: 100px;
-    border: solid;   
-    background-color:#ECC73B ;
-    border-color: #23DB80;
-
-}
-
-.diagtxt6{
-
+.diagtxt5 {
     margin-left: 200px;
-    margin-bottom: 80px; 
+    margin-bottom: 88px;
+    border-color: #23DB80;
 }
 
-.section6{
+.diag6 {
+    width: 45px;
+    height: 100px;
+    border: solid;
+    background-color: #ECC73B;
+    border-color: #23DB80;
+}
+
+.diagtxt6 {
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+
+.section6 {
     border: solid;
     position: relative;
     width: 1900px;
     height: px
-     
 }
-.projet{
+
+.projet {
     display: flex;
     padding: 40px;
     margin: 40px;
     justify-content: space-around;
     align-items: center;
     position: relative;
-
 }
 
-.projet1{
+.projet1 {
     position: relative;
 }
-.imagep01{
+
+.imagep01 {
     width: 500px;
-   
     height: 400px;
 }
 
-.imagep02{
+.imagep02 {
     width: 500px;
     height: 400px;
-    
 }
-.imagep03{
+
+.imagep03 {
     width: 500px;
-   
-    height:400px;
+    height: 400px;
 }
-.section7{
-      border: solid;
-      position: relative;
-      width: 1900px;
-      height: 500px;
+
+.section7 {
+    border: solid;
+    position: relative;
+    width: 1900px;
+    height: 500px;
 }
-.foot{
-    display: flex; 
+
+.foot {
+    display: flex;
     margin-left: 30px;
 }
-.joindre{
-    margin-right: 100px;
 
-   
+.joindre {
+    margin-right: 100px;
 }
 
-.call{
-    position: absolute;left: 15px;top: 5px;
+.call {
+    position: absolute;
+    left: 15px;
+    top: 5px;
     border: solid;
     border-radius: 100%;
     width: 70px;
@@ -457,103 +467,120 @@ margin-bottom: 135px;
     text-align: center;
 }
 
-.email{
+.email {
     width: 25px;
     height: 25px;
-    position: absolute;top: 300px;left: 80px;
+    position: absolute;
+    top: 300px;
+    left: 80px;
 }
 
-.tel{
+.tel {
     width: 25px;
-    height: 25px;  
-    position: absolute;top: 200px;left: 85px;
+    height: 25px;
+    position: absolute;
+    top: 200px;
+    left: 85px;
 }
 
-.monadd{
+.monadd {
     width: 30px;
     height: 30px;
 }
 
-.locali{
+.locali {
     width: 170px;
     height: 100px;
-    position: absolute;top: 220px;right: 150px;
+    position: absolute;
+    top: 220px;
+    right: 150px;
 }
 
-
-.lieux{
-    position: absolute;right: 190px;top: 160px;
+.lieux {
+    position: absolute;
+    right: 190px;
+    top: 160px;
 }
-.address{
+
+.address {
     margin-left: 1500px;
     text-align: center;
-  
-  
-    
 }
 
-.contact{
+.contact {
     position: relative;
 }
 
-.add{
+.add {
     border: solid;
-    
+    position: absolute;
+    right: 80px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%
+}
+
+.ad {
     border-radius: 100%;
-    position: absolute;right: 80px;
-    width: 70px;
-    height: 70px;
- 
-   
+    position: absolute;
+    right: 80px;
+    width: 80px;
+    height: 80px;
 }
 
-
-.formulaire{
+.formulaire {
     margin-left: 00px;
-    position: absolute;right: 900px;  
+    position: absolute;
+    right: 900px;
 }
 
-
-
-#btn{
+#btn {
     width: 100px;
     height: 25px;
 }
-.footer{
+
+.footer {
     text-align: center;
     border: solid;
     background-color: rgb(104, 48, 8);
-    position: absolute;bottom: 0px;
+    position: absolute;
+    bottom: 0px;
     width: 1895px;
 }
 
-.mail0{
-   position: absolute;left: 150px;top: 290px
+.mail0 {
+    position: absolute;
+    left: 150px;
+    top: 290px
 }
 
-.contact{
+.contact {
     position: relative;
 }
 
-.celtxt{
- position: relative;top: 100px;left: 120px;
+.celtxt {
+    position: relative;
+    top: 100px;
+    left: 120px;
 }
-.sign{
+
+.sign {
     color: aliceblue;
 }
 
-nav ul{
+nav ul {
     padding: auto;
     margin: 20px;
     list-style-type: none;
     float: right;
     top: 80px;
-    right: 40px; 
-    position: absolute;top: 77px;left: 1000px;
-    
+    right: 40px;
+    position: absolute;
+    top: 77px;
+    left: 1000px;
 }
 
-nav li{
+nav li {
     display: inline-block;
     border-radius: 30px;
     text-align: center;
@@ -562,23 +589,23 @@ nav li{
     margin: 0px;
     border: solid 1px;
     background-color: aliceblue;
-   
-   
+}
 
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: #1E2021;
 }
-nav li a{display: block;
-text-decoration: none;
-color: #1E2021;
-}
-nav li :hover{
-  background-color: rgb(58, 223, 206);
+
+nav li :hover {
+    background-color: rgb(58, 223, 206);
     border-radius: 30px;
 }
 
-
- .nomtitre{
+.nomtitre {
     width: 25%;
-    position: absolute; right: 1200px; top: 20px;
+    position: absolute;
+    right: 1200px;
+    top: 20px;
     margin: 20px;
-
 }
