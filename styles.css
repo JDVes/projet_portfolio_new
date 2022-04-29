@@ -1,5 +1,51 @@
     /* Menus Horizontal */
-    /* Section menus */
+    /* Les elements du menus */
+    
+    nav ul {
+        padding: auto;
+        margin: 20px;
+        list-style-type: none;
+        float: right;
+        top: 80px;
+        right: 40px;
+        position: absolute;
+        top: 77px;
+        left: 1000px;
+    }
+    /* Les rubriques du portfolio */
+    
+    nav li {
+        display: inline-block;
+        border-radius: 30px;
+        text-align: center;
+        line-height: 30px;
+        padding: 0px;
+        margin: 0px;
+        border: solid 1px;
+        background-color: #f90
+    }
+    /* Le titre des rubriques */
+    
+    nav li a {
+        display: block;
+        text-decoration: none;
+        color: #1E2021;
+    }
+    
+    nav li :hover {
+        background-color: rgb(58, 223, 206);
+        border-radius: 30px;
+    }
+    /* Nom et titre  */
+    
+    .nomtitre {
+        width: 50%;
+        position: absolute;
+        right: 700px;
+        top: 20px;
+        margin: 20px;
+    }
+    /* Les elements du body */
     
     body {
         padding: 0;
@@ -7,6 +53,11 @@
         box-sizing: border-box;
         min-width: 16vh;
     }
+    
+    header {
+        display: flex;
+    }
+    /* Section menus */
     
     .section1 {
         border: solid;
@@ -18,6 +69,7 @@
     .menus {
         background-color: #DFDED1;
     }
+    /* Photos de profile */
     
     .logo1 {
         border-radius: 50%;
@@ -26,6 +78,7 @@
         margin: 30px;
         top: 0px;
     }
+    /* Section Acceuil */
     
     .section2 {
         border: solid;
@@ -34,6 +87,7 @@
         height: 350px;
         display: block;
     }
+    /* text download cv */
     
     .cv {
         width: 60px;
@@ -44,6 +98,7 @@
         text-align: center;
         background-color: blue;
     }
+    /* Icone linkdin */
     
     .hub {
         width: 40px;
@@ -60,7 +115,7 @@
         bottom: 42px;
         right: 175px;
     }
-    /* .c */
+    /* Titre des rubrique en h3*/
     
     h3 {
         text-align: center;
@@ -75,6 +130,7 @@
         margin-left: 950px;
         border-color: goldenrod;
     }
+    /* Image section Accueil */
     
     .photos01 {
         width: 500px;
@@ -87,6 +143,7 @@
         right: px;
         ;
     }
+    /* Text presentation section Accueil */
     
     .texte01 {
         margin-left: 1000px;
@@ -97,6 +154,7 @@
         font-size: xx-large;
         font-family: sans-serif;
     }
+    /* Bouton dowload cv */
     
     .bouton {
         margin-left: 1345px;
@@ -128,6 +186,7 @@
         width: 50px;
         height: 50px;
     }
+    /* Section a propos*/
     
     .section3 {
         border: solid;
@@ -135,12 +194,22 @@
         width: 100%;
         height: 400px;
     }
+    /* Biographie  */
+    
+    .bio {
+        text-decoration: underline;
+        color: #f90;
+        font-size: x-large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /* Image section a propos */
     
     .photos02 {
         width: 450px;
         margin-left: 1200px;
         margin-top: 10px;
     }
+    /* Texte presentant le profil */
     
     .texte02 {
         margin-left: 350px;
@@ -150,6 +219,7 @@
         font-size: medium;
         font-size: 20px;
     }
+    /* Section Parcours */
     
     .section4 {
         border: solid;
@@ -157,6 +227,7 @@
         width: 100%;
         height: 700px;
     }
+    /*  Parcours Academique */
     
     .Acad {
         margin: 20px;
@@ -164,6 +235,7 @@
         position: relative;
         top: 25px;
     }
+    /*  titre du parcours et descriptif */
     
     .titre1 {
         border-radius: 40%;
@@ -220,8 +292,7 @@
         position: relative;
         top: -80px;
     }
-    
-    .image3 {
+    /* .image3 {
         border: solid;
         border-radius: 50%;
         width: 50px;
@@ -236,11 +307,12 @@
         margin-left: 100px;
         position: relative;
         top: -80px;
-    }
+    } */
     
     .background {
         display: flex;
     }
+    /* Experiences professionnelles */
     
     .exp,
     .academy {
@@ -316,8 +388,7 @@
         position: relative;
         top: -70px;
     }
-    
-    .image03 {
+    /* .image03 {
         border: solid;
         border-radius: 50%;
         width: 50px;
@@ -335,7 +406,8 @@
         margin-left: 850px;
         position: relative;
         top: -60px;
-    }
+    } */
+    /* Section Competences */
     
     .section5 {
         border: solid;
@@ -433,12 +505,14 @@
         margin-left: 200px;
         margin-bottom: 80px;
     }
+    /* Section Projet */
     
     .section6 {
         border: solid;
         position: relative;
         width: 100%;
-        height: px
+        flex-direction: column;
+        background-color: lightyellow;
     }
     
     .projet {
@@ -449,6 +523,7 @@
         align-items: center;
         position: relative;
     }
+    /* Projet  */
     
     .projet1 {
         position: relative;
@@ -457,17 +532,33 @@
     .imagep01 {
         width: 500px;
         height: 400px;
+        border: 2px solid #ECA86B;
+    }
+    
+    .imagep01:hover {
+        transform: scale(1.2);
     }
     
     .imagep02 {
         width: 500px;
         height: 400px;
+        border: 2px solid #ECA86B;
+    }
+    
+    .imagep02:hover {
+        transform: scale(1.2);
     }
     
     .imagep03 {
         width: 500px;
         height: 400px;
+        border: 2px solid #ECA86B;
     }
+    
+    .imagep03:hover {
+        transform: scale(1.2);
+    }
+    /* Section Contacts */
     
     .section7 {
         border: solid;
@@ -495,6 +586,7 @@
         height: 70px;
         text-align: center;
     }
+    /* email */
     
     .email {
         width: 25px;
@@ -503,6 +595,7 @@
         top: 300px;
         left: 80px;
     }
+    /* Numeros de telephone */
     
     .tel {
         width: 25px;
@@ -511,11 +604,13 @@
         top: 200px;
         left: 85px;
     }
+    /* Address */
     
     .monadd {
         width: 30px;
         height: 30px;
     }
+    /* localisation */
     
     .locali {
         width: 170px;
@@ -538,6 +633,7 @@
     
     .contact {
         position: relative;
+        background-image: url(/Users/imacg1/Downloads/test/projet_portfolio_new/image/d7lvf7p-9a954aa8-299e-4e16-8b11-16ae4c5d7d00.png);
     }
     
     .add {
@@ -556,6 +652,7 @@
         width: 80px;
         height: 80px;
     }
+    /* Formulaire */
     
     .formulaire {
         margin-left: 00px;
@@ -566,6 +663,7 @@
     #btn {
         width: 100px;
         height: 25px;
+        color: #f90;
     }
     
     .footer {
@@ -596,45 +694,18 @@
     .sign {
         color: aliceblue;
     }
+    /* realisation de la responsivité */
     
-    nav ul {
-        padding: auto;
-        margin: 20px;
-        list-style-type: none;
-        float: right;
-        top: 80px;
-        right: 40px;
-        position: absolute;
-        top: 77px;
-        left: 1000px;
+    @media screen and(min-width:992px) {
+        flex-direction: row;
+        flex: 0 1 10%;
+        flex: 0 1 40%;
+        flex 0 1 50% flex: 0 1 50%;
+        0 1 50%;
     }
     
-    nav li {
-        display: inline-block;
-        border-radius: 30px;
-        text-align: center;
-        line-height: 30px;
-        padding: 0px;
-        margin: 0px;
-        border: solid 1px;
-        background-color: aliceblue;
-    }
+    @media screen and(max-width:991px) {}
     
-    nav li a {
-        display: block;
-        text-decoration: none;
-        color: #1E2021;
-    }
-    
-    nav li :hover {
-        background-color: rgb(58, 223, 206);
-        border-radius: 30px;
-    }
-    
-    .nomtitre {
-        width: 50%;
-        position: absolute;
-        right: 700px;
-        top: 20px;
-        margin: 20px;
+    .clrn {
+        color: hsl(43, 98%, 54%);
     }
