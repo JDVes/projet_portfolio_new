@@ -1,23 +1,12 @@
                 /* Menus Horizontal */
-                /* Les elements du menus */
-                /* nav ul {
-                    padding: auto;
-                    margin: 20px;
-                    list-style-type: none;
-                    float: right;
-                    top: 80px;
-                    right: 40px;
-                    position: absolute;
-                    top: 77px;
-                    left: 1000px;
-                } */
+                
                 /* Les rubriques du portfolio */
                 
                 nav li {
                     display: inline-block;
                     border-radius: 30px;
                     text-align: center;
-                    line-height: 30px;
+                    line-height: 20px;
                     padding: 10px;
                     margin: 10px;
                     border: solid 1px;
@@ -29,20 +18,19 @@
                     display: block;
                     text-decoration: none;
                     color: #1E2021;
+                   
+                  
+                   
+                   
                 }
                 
                 nav li :hover {
-                    background-color: rgb(58, 223, 206);
+                    background-color: rgb(58, 223, 113);
                     border-radius: 30px;
+                    
+                  
                 }
-                /* Nom et titre  */
-                /* .nomtitre {
-                    width: 50%;
-                    position: absolute;
-                    right: 700px;
-                    top: 20px;
-                    margin: 20px;
-                } */
+               
                 /* Les elements du body */
                 
                 body {
@@ -138,11 +126,10 @@
                     height: 50%;
                     border-radius: 100px;
                     border: solid;
-                    /* border: solid; */
-                    /* transform: scale();  */
+                  
                     width: 150px;
                     height: 30px;
-                    /* margin-left: 950px; */
+                   
                     border-color: goldenrod;
                 }
                 /* Image section Accueil */
@@ -150,10 +137,7 @@
                 .photos01 {
                     width: 100%;
                     margin: px;
-                    /* margin-right: 200px; */
-                    /* margin-left: 350px; */
-                    /* max-height: 320px; */
-                    /* position: absolute; */
+                    
                     top: px;
                     right: px;
                     ;
@@ -161,8 +145,7 @@
                 /* Text presentation section Accueil */
                 
                 .texte01 {
-                    /* margin-left: 1000px; */
-                    /* position: absolute; */
+                   
                     bottom: px;
                     top: px;
                     font-size: x-large;
@@ -172,22 +155,11 @@
                 /* Bouton dowload cv */
                 
                 .bouton {
-                    /* margin-left: 1345px; */
-                    /* margin-bottom: 80px; */
-                    /* position: absolute; */
-                    /* bottom: -80px; */
+                   
                 display: flex;}
                 
-                .bouton1 {
-                    /* position: absolute; */
-                    /* right: 250px; */
-                    /* bottom: -40px; */
-                    top: px;
-                    /* margin-bottom: 80px; */
-                    /* margin-top: 50px; */
-                    /* margin-left: 100px; */
-                    /* text-align: center; */
-                }
+                
+                   
                 .bouton1, .bouton2, .bouton3{
                     margin: 0 10px;
                 }
@@ -200,16 +172,14 @@
                 }
                 
                 .photos1 {
-                    /* width: 50px; */
-                    /* height: 50px; */
+                    
                 padding: 20px;}
                 /* Section a propos*/
                 
                 .section3 {
                     border: solid;
                     position: relative;
-                    /* width: 100%; */
-                    /* height: 400px; */
+                   
                 }
                 /* Biographie  */
                 
@@ -228,9 +198,6 @@
                 /* Texte presentant le profil */
                 
                 .texte02 {
-                    /* margin-left: 350px; */
-                    /* position: absolute; */
-                    /* top: 60px; */
                     font-family: Verdana, Geneva, Tahoma, sans-serif;
                     font-size: medium;
                     font-size: 20px;
@@ -253,26 +220,29 @@
                 /*  titre du parcours et descriptif */
                 
                 .titre1 {
-                    border-radius: 14%;
-                    /* position: absolute; */
-                    /* left: 850px; */
-                    /* width: 150px; */
+                    border-radius: 12%;
                     border: solid;
-                    height: px;
+                    height: 10px;
                     padding: 20px;
-                    /* left: 1600px; */
-                    /* top: 110px; */
                     text-align: center;
-                margin: 50px;}
+                    margin: 50px;
+                   font-size: large;
+                   font-family: Verdana, Geneva, Tahoma, sans-serif;
+                   background-color: #f90;
+                }
                 
                 .titre2 {
                     margin: 50px;
                     border-radius: 12%;
-                    /* width: 150px; */
                     border: solid;
-                    height: px;
-                    padding: 29px;
-                }
+                    height: 10px;
+                    padding: 20px;
+                    text-align: center;
+                    font-size: large;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    background-color: #f90;
+                 }
+                
                 
                 .image1 {
                     border: solid;
@@ -307,22 +277,7 @@
                     position: relative;
                     top: -80px;
                 }
-                /* .image3 {
-        border: solid;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-    }
-    
-    .desc3 {
-        border: solid;
-        right: 20px;
-        width: 200px;
-        height: 80px;
-        margin-left: 100px;
-        position: relative;
-        top: -80px;
-    } */
+      
                 
                 .background {
                     display: flex;
@@ -334,6 +289,8 @@
                 .academy {
                     flex: 0 1 50%;
                     margin-top: auto;
+                    display: grid;
+                    place-content:center;
                 }
                 
                 .acad__item {
@@ -342,6 +299,7 @@
                     margin: 3rem 0;
                     padding: 0 2rem;
                     margin-top: auto;
+                 
                 }
                 
                 .acad__item--img {
@@ -352,6 +310,8 @@
                     /* flex: 0 1 30%; */
                     margin-right: 2rem;
                     background-color: #ECC73B;
+                    display: grid;
+                    place-content:center;
                 }
                 
                 .acad__item--desc {
@@ -360,6 +320,8 @@
                     border: 2px solid black;
                     flex: 0 1 70%;
                     background-color: darkgray;
+                    display: grid;
+                    place-content:center;
                 }
                 
                 .exp {
@@ -406,39 +368,17 @@
                     position: relative;
                     top: -70px;
                 }
-                /* .image03 {
-        border: solid;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        margin-left: 750px;
-        position: relative;
-        top: -130px;
-    }
     
-    .desc03 {
-        border: solid;
-        right: 20px;
-        width: 200px;
-        height: 80px;
-        margin-left: 850px;
-        position: relative;
-        top: -60px;
-    } */
                 /* Section Competences */
                 
                 .section5 {
                     border: solid;
-                    /* height: 230px; */
+                    
                     padding-bottom: 3rem;
                 }
                 
                 .compg {
                     display: flex;
-                    
-                    
-                    /* height: 100%; */
-                    /* width: 15%; */
                     padding: px;
                 align-items: flex-end;flex-direction: row;justify-content: space-around;
             }
@@ -449,16 +389,12 @@
                     width: 45px;
                     height: 150px;
                     border: solid;
-                    /* display: flex; */
                     margin-left: px;
                     background-color: #ECA86B;
                     border-color: #23DB80;
                 }
                 
-                .diagtxt1 {
-                    /* margin-left: 60px; */
-                    /* margin-bottom: 135px; */
-                }
+               
                 
                 .diag2 {
                     width: 45px;
@@ -466,7 +402,7 @@
                     border: solid;
                     border-color: #23DB80;
                     background-color: #5C4D17;
-                /* margin-left: 20px; */}
+                }
                 
                
                 
@@ -479,8 +415,7 @@
                 }
                 
                 .diagtxt3 {
-                    /* margin-left: 300px; */
-                    /* margin-bottom: 105px; */
+                   
                     border-color: #23DB80;
                 }
                 
@@ -491,11 +426,7 @@
                     background-color: #6D7EE0;
                     border-color: #23DB80;
                 }
-                
-                .diagtxt4 {
-                    /* margin-left: 400px; */
-                    /* margin-bottom: 88px; */
-                }
+          
                 
                 .diag5 {
                     width: 45px;
@@ -506,8 +437,7 @@
                 }
                 
                 .diagtxt5 {
-                    /* margin-left: 200px; */
-                    /* margin-bottom: 88px; */
+                  
                     border-color: #23DB80;
                 }
                 
@@ -518,11 +448,7 @@
                     background-color: #ECC73B;
                     border-color: #23DB80;
                 }
-                
-                .diagtxt6 {
-                    /* margin-left: 200px; */
-                    /* margin-bottom: 80px; */
-                }
+            
                 /* Section Projet */
                 
                 .section6 {
@@ -597,8 +523,7 @@
                 }
                 
                 .call {
-                    /* position: absolute; */
-                    /* left: 15px; */
+                  
                     top: 5px;
                     border: solid;
                     border-radius: 100%;
@@ -611,9 +536,7 @@
                 .email {
                     width: 25px;
                     height: 25px;
-                    /* position: absolute; */
-                    /* top: 300px; */
-                    /* left: 80px; */
+                   
                     margin-right: 10px;
                 }
                 /* Numeros de telephone */
@@ -621,38 +544,30 @@
                 .tel {
                     width: 25px;
                     height: 25px;
-                    /* position: absolute; */
-                    /* top: 200px; */
-                    /* left: 85px; */
+                   
                     margin-right: 10px;
                 }
                 /* Address */
                 
-                .monadd {
-                    /* width: 30px; */
-                    /* height: 30px; */
-                }
+             
                 /* localisation */
                 
                 .locali {
-                    /* width: 170px; */
+                   
                     height: 100px;
-                    /* position: absolute; */
-                    /* top: 220px; */
-                    /* right: 150px; */
+                  
                 }
                 .num, .mail{
                     display: flex;
                     align-items: center;
                 }
                 .lieux {
-                    /* position: absolute; */
-                    /* right: 190px; */
+                   
                     top: 160px;
                 }
                 
                 .address {
-                    /* margin-left: 1500px; */
+                    
                     text-align: center;
                 }
                 
@@ -679,17 +594,15 @@
                 }
                 /* Formulaire */
                 
-                .formulaire {
-                    /* margin-left: 00px; */
-                    /* position: absolute; */
-                    /* right: 900px; */
-                }
+            
                 /* contenair formulair */
                 
                 #btn {
                     width: 100px;
-                    height: 25px;
-                    color: #f90;
+                    height: 30px;
+                   
+                    border-radius: 50px;
+                    background-color: #f90;
                 }
                 
                 .footer {
@@ -703,10 +616,7 @@
 flex: 0 1 33%;
 padding: 30px;
                 justify-self: center;}
-                .mail0 {
-                    /* position: absolute; */
-                    /* left: 150px; */
-                    /* top: 290px; */}
+              
                 
                 #contact {
                     position: relative;
